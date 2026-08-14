@@ -142,57 +142,43 @@ Practical JavaScript development practices covering:
 
 ⸻
 
-🗂️ Repository Structure
+## 🗂️ Repository Structure
 
-The repository is organized by learning area rather than putting everything into a single folder.
+The repository is organized into focused sections to make learning and revision easier.
 
-javascript-interview-preparation/
-│
+### 🧠 JavaScript Concepts
 
-├── 01-javascript-fundamentals/
+| Section | Focus |
+|---|---|
+| `01-javascript-fundamentals` | Core JavaScript |
+| `02-functions` | Functions and callbacks |
+| `03-scope-and-closures` | Scope and closures |
+| `04-arrays-and-strings` | Arrays and strings |
+| `05-objects` | Objects |
+| `06-es6-plus` | Modern JavaScript |
 
-├── 02-functions/
+### ⚡ Advanced JavaScript
 
-├── 03-scope-and-closures/
+| Section | Focus |
+|---|---|
+| `07-higher-order-and-functional-js` | HOFs and functional concepts |
+| `08-this-call-apply-bind` | Function context |
+| `09-prototypes-and-classes` | Prototypes and classes |
+| `10-asynchronous-javascript` | Async JavaScript |
+| `11-dom-and-browser` | Browser concepts |
 
-├── 04-arrays-and-strings/
+### 🎯 Interview Preparation
 
-├── 05-objects/
+| Section | Focus |
+|---|---|
+| `12-coding-problems` | Interview coding |
+| `13-common-patterns` | Problem-solving patterns |
+| `14-tricky-javascript` | Tricky concepts |
+| `15-interview-questions` | Interview questions |
+| `16-best-practices` | Best practices |
 
-├── 06-es6-plus/
+Folders and files will be added gradually as the learning progresses.
 
-├── 07-higher-order-and-functional-js/
-
-├── 08-this-call-apply-bind/
-
-├── 09-prototypes-and-classes/
-
-├── 10-asynchronous-javascript/
-
-├── 11-dom-and-browser/
-
-│
-
-├── 12-coding-problems/
-
-├── 13-common-patterns/
-
-├── 14-tricky-javascript/
-
-├── 15-interview-questions/
-
-├── 16-best-practices/
-
-│
-
-├── progress/
-
-│   └── progress-tracker.md
-│
-
-└── README.md
-
-Folders and files will be added gradually as the learning progresses. The repository will not be filled with empty placeholder content just to make it look larger.
 
 ⸻
 
@@ -222,24 +208,35 @@ For important concepts, the goal is to understand:
 
 ⸻
 
-💻 Coding Problems
+## 💻 Coding Problems
 
-Coding problems in this repository are specifically intended for interview preparation.
+Coding problems in this repository are specifically intended for **interview preparation**.
 
 They will not simply reproduce the solutions from my separate Codewars practice.
 
 Problems will be organized by difficulty:
 
-12-coding-problems/
-│
+### 💻 Coding Problems Structure
 
-├── easy/
-
-├── medium/
-
-└── hard/
+| Difficulty | Purpose |
+|---|---|
+| `easy` | Fundamental interview problems |
+| `medium` | Intermediate problem-solving |
+| `hard` | Advanced interview problems |
 
 Where useful, problems will also be connected to common patterns from:
+
+`13-common-patterns/`
+
+Each problem will eventually document:
+
+- Problem
+- Example
+- Approach
+- JavaScript solution
+- Complexity
+- Edge cases
+- Interview notes
 
 13-common-patterns/
 
