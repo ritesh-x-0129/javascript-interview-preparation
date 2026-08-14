@@ -232,7 +232,9 @@ Problems will be organized by difficulty:
 12-coding-problems/
 │
 ├── easy/
+
 ├── medium/
+
 └── hard/
 
 Where useful, problems will also be connected to common patterns from:
