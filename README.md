@@ -148,27 +148,47 @@ The repository is organized by learning area rather than putting everything into
 
 javascript-interview-preparation/
 │
+
 ├── 01-javascript-fundamentals/
+
 ├── 02-functions/
+
 ├── 03-scope-and-closures/
+
 ├── 04-arrays-and-strings/
+
 ├── 05-objects/
+
 ├── 06-es6-plus/
+
 ├── 07-higher-order-and-functional-js/
+
 ├── 08-this-call-apply-bind/
+
 ├── 09-prototypes-and-classes/
+
 ├── 10-asynchronous-javascript/
+
 ├── 11-dom-and-browser/
+
 │
+
 ├── 12-coding-problems/
+
 ├── 13-common-patterns/
+
 ├── 14-tricky-javascript/
+
 ├── 15-interview-questions/
+
 ├── 16-best-practices/
+
 │
+
 ├── progress/
 │   └── progress-tracker.md
 │
+
 └── README.md
 
 Folders and files will be added gradually as the learning progresses. The repository will not be filled with empty placeholder content just to make it look larger.
@@ -211,8 +231,11 @@ Problems will be organized by difficulty:
 
 12-coding-problems/
 │
+
 ├── easy/
+
 ├── medium/
+
 └── hard/
 
 Where useful, problems will also be connected to common patterns from:
