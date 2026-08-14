@@ -148,7 +148,6 @@ The repository is organized by learning area rather than putting everything into
 
 javascript-interview-preparation/
 │
-
 ├── 01-javascript-fundamentals/
 
 ├── 02-functions/
@@ -186,6 +185,7 @@ javascript-interview-preparation/
 │
 
 ├── progress/
+
 │   └── progress-tracker.md
 │
 
@@ -231,11 +231,8 @@ Problems will be organized by difficulty:
 
 12-coding-problems/
 │
-
 ├── easy/
-
 ├── medium/
-
 └── hard/
 
 Where useful, problems will also be connected to common patterns from:
