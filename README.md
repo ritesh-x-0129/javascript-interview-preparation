@@ -1,57 +1,150 @@
 JavaScript Interview Preparation
 
-A structured and continuously growing repository for preparing JavaScript concepts, coding patterns, interview questions, and practical JavaScript knowledge.
+A structured and continuously growing repository for learning, practicing, and revising JavaScript with a strong focus on technical interviews.
 
-This repository is part of my MERN Stack development journey and is focused specifically on building strong JavaScript fundamentals and interview readiness.
+This repository is part of my MERN Stack development journey and focuses on concept understanding, practical examples, coding patterns, interview questions, and JavaScript-specific problem solving.
 
----
+⸻
 
 🎯 Purpose
 
-The goal of this repository is to build a strong understanding of JavaScript through:
+This repository is designed to help me:
 
-* Clear concept explanations
-* Practical JavaScript examples
-* Interview-focused questions
-* Coding problems and patterns
-* Tricky JavaScript concepts
-* Best practices
-* Regular revision and practice
+* Build strong JavaScript fundamentals
+* Understand how JavaScript works internally
+* Practice important JavaScript concepts with code
+* Prepare for JavaScript technical interviews
+* Learn common coding patterns
+* Document tricky JavaScript behavior
+* Build a long-term revision resource
+* Improve my ability to explain technical concepts clearly
 
-This is not a collection of random JavaScript notes or Codewars solutions.
+This repository is not intended to duplicate my Codewars practice.
 
-My Codewars practice is maintained separately. This repository focuses on understanding JavaScript deeply and preparing for technical interviews.
+Codewars is used for regular problem-solving practice, while this repository focuses on interview preparation and deeper JavaScript understanding.
 
----
+⸻
 
 📚 Topics
 
-The repository will progressively cover:
+The repository will be developed progressively across the following areas:
 
-Area	Focus
-JavaScript Fundamentals	Variables, data types, operators, conditionals, loops
-Functions	Function types, parameters, callbacks, arrow functions
-Scope & Closures	Scope, hoisting, closures, TDZ
-Arrays & Strings	Array methods, string operations, common techniques
-Objects	Object fundamentals, destructuring, spread/rest
-ES6+	Modern JavaScript features and syntax
-Higher-Order & Functional JavaScript	HOFs, map, filter, reduce, currying, composition
-this, call, apply, bind	Function context and method invocation
-Prototypes & Classes	Prototypes, prototype chain, classes
-Asynchronous JavaScript	Callbacks, Promises, async/await
-Event Loop	Call stack, microtasks, macrotasks, execution order
-DOM & Browser	DOM manipulation, events, delegation, debouncing, throttling
-Coding Problems	Interview-oriented problem solving
-Common Patterns	Two pointers, sliding window, hash maps, stacks, etc.
-Tricky JavaScript	Frequently misunderstood JavaScript behavior
-Interview Questions	Beginner, intermediate, and advanced questions
-Best Practices	Readable, maintainable, and practical JavaScript
+01. JavaScript Fundamentals
 
-Topics will be added progressively as I learn and practice them.
+Variables, data types, operators, conditionals, loops, type conversion, and type coercion.
 
----
+02. Functions
+
+Function declarations, expressions, arrow functions, parameters, return values, callbacks, and function behavior.
+
+03. Scope & Closures
+
+Scope, lexical scope, hoisting, Temporal Dead Zone, and closures.
+
+04. Arrays & Strings
+
+Array fundamentals, array methods, string operations, and common techniques used in interviews.
+
+05. Objects
+
+Object fundamentals, object methods, destructuring, spread/rest, and object-related behavior.
+
+06. ES6+
+
+Modern JavaScript features including modules, template literals, optional chaining, nullish coalescing, and other ES6+ features.
+
+07. Higher-Order & Functional JavaScript
+
+Higher-order functions, map(), filter(), reduce(), pure functions, immutability, currying, and composition.
+
+08. this, call, apply & bind
+
+Understanding function context and the different ways JavaScript controls function invocation.
+
+09. Prototypes & Classes
+
+Prototypes, prototype chain, constructor functions, classes, inheritance, and related JavaScript concepts.
+
+10. Asynchronous JavaScript
+
+Callbacks, Promises, async/await, the event loop, execution order, microtasks, and macrotasks.
+
+11. DOM & Browser Concepts
+
+DOM manipulation, browser events, event delegation, debouncing, throttling, and practical browser behavior.
+
+12. Coding Problems
+
+Interview-oriented coding problems organized by difficulty.
+
+13. Common Patterns
+
+Reusable problem-solving patterns such as:
+
+* Two Pointers
+* Sliding Window
+* Hash Maps
+* Stack
+* Queue
+* Recursion
+* Binary Search
+* Sorting
+* Linked Lists
+* Trees
+* Graphs
+* Dynamic Programming
+
+14. Tricky JavaScript Concepts
+
+Frequently misunderstood JavaScript behavior explained through practical examples.
+
+Examples include:
+
+* Type coercion
+* == vs ===
+* null vs undefined
+* NaN
+* typeof null
+* Primitive vs reference values
+* Object references
+* Shallow vs deep copy
+* Closures inside loops
+* var vs let
+* Arrow functions and this
+* Hoisting
+* Temporal Dead Zone
+* Event loop ordering
+* Promise execution order
+
+15. Interview Questions
+
+Interview questions organized into:
+
+* Beginner
+* Intermediate
+* Advanced
+
+Questions will be added progressively as the corresponding concepts are learned.
+
+16. Best Practices
+
+Practical JavaScript development practices covering:
+
+* Naming conventions
+* Readable functions
+* Clean code
+* Error handling
+* Appropriate array methods
+* Avoiding unnecessary mutation
+* Avoiding unnecessary complexity
+* Maintainability
+* Practical performance considerations
+
+⸻
 
 🗂️ Repository Structure
+
+The repository is organized by learning area rather than putting everything into a single folder.
 
 javascript-interview-preparation/
 │
@@ -78,13 +171,13 @@ javascript-interview-preparation/
 │
 └── README.md
 
-The repository will grow gradually. Folders and files will be added when they become relevant rather than creating a large collection of empty sections upfront.
+Folders and files will be added gradually as the learning progresses. The repository will not be filled with empty placeholder content just to make it look larger.
 
----
+⸻
 
 🧠 Learning Method
 
-My preparation follows this cycle:
+The preparation process follows a simple cycle:
 
 Concept
    ↓
@@ -96,160 +189,108 @@ Interview Questions
    ↓
 Revision
 
-The focus is not simply on memorizing answers.
-
-For important JavaScript concepts, I want to understand:
+For important concepts, the goal is to understand:
 
 * What it is
 * Why it exists
 * How it works
-* When it should be used
+* When to use it
 * Common mistakes
-* How it behaves in real JavaScript code
-* How to explain it during an interview
+* Real JavaScript behavior
+* How to explain it in an interview
 
----
+⸻
 
 💻 Coding Problems
 
-Coding problems in this repository are intended to be interview-oriented.
+Coding problems in this repository are specifically intended for interview preparation.
 
-They will not duplicate my separate Codewars repository.
+They will not simply reproduce the solutions from my separate Codewars practice.
 
-Problems will eventually be organized by difficulty:
+Problems will be organized by difficulty:
 
 12-coding-problems/
+│
 ├── easy/
 ├── medium/
 └── hard/
 
-Where useful, problems will also be connected to common problem-solving patterns such as:
+Where useful, problems will also be connected to common patterns from:
 
-* Arrays
-* Strings
-* Hash Maps
-* Two Pointers
-* Sliding Window
-* Stack
-* Queue
-* Recursion
-* Binary Search
-* Sorting
-* Linked Lists
-* Trees
-* Graphs
-* Dynamic Programming
+13-common-patterns/
 
-Each problem will focus on understanding the approach rather than simply collecting solutions.
+Each problem will eventually document:
 
----
+* Problem
+* Example
+* Approach
+* JavaScript solution
+* Complexity
+* Edge cases
+* Interview notes
 
-🎤 Interview Questions
+⸻
 
-Interview questions will be organized progressively by difficulty:
+🎤 Interview Preparation
 
-Beginner
+The interview preparation process is built around four stages:
 
-Topics such as:
+Learn
+  ↓
+Practice
+  ↓
+Explain
+  ↓
+Interview Ready
 
-* Variables
-* Data types
-* let, const, var
-* Operators
-* Conditionals
-* Loops
-* Functions
-* Arrays
-* Strings
-* Objects
+A concept should not be considered complete simply because I can write its syntax.
 
-Intermediate
+For important topics, I should be able to:
 
-Topics such as:
+1. Explain the concept in simple words.
+2. Write a practical example.
+3. Understand its behavior.
+4. Identify common mistakes.
+5. Answer related interview questions.
+6. Apply it to a coding problem when relevant.
 
-* Scope
-* Hoisting
-* Closures
-* this
-* Destructuring
-* Spread and Rest
-* Higher-order functions
-* Array methods
-* Callbacks
-* ES6+
-* Modules
+⸻
 
-Advanced
+⚡ Tricky JavaScript
 
-Topics such as:
+JavaScript has many behaviors that are easy to misunderstand.
 
-* Prototypes
-* Prototype chain
-* Classes
-* Execution context
-* Event loop
-* Call stack
-* Microtasks and macrotasks
-* Promises
-* async/await
-* Event delegation
-* Debouncing
-* Throttling
-* Memory management
-* Shallow vs deep copy
-* Currying
-* Composition
+This repository will maintain a dedicated collection of tricky examples so that these concepts can be revised quickly before interviews.
 
-Questions will be added progressively instead of creating a huge question bank at the beginning.
-
----
-
-⚡ Tricky JavaScript Concepts
-
-JavaScript has many behaviors that can appear confusing during interviews.
-
-A dedicated section will cover examples such as:
+For example:
 
 [] == false;
 typeof null;
 0.1 + 0.2;
 
-Other topics will include:
+Each example will focus on why JavaScript behaves that way, rather than simply memorizing the output.
 
-* null vs undefined
-* NaN
-* Primitive vs reference values
-* Object references
-* Shallow vs deep copy
-* Closure behavior inside loops
-* var vs let
-* Arrow functions and this
-* Hoisting
-* Temporal Dead Zone
-* Event loop execution order
-* Promise execution order
-
-These topics will be explained using actual JavaScript examples rather than theory alone.
-
----
+⸻
 
 📈 Progress
 
-Preparation will be tracked using four simple stages:
+Preparation progress is tracked using four stages:
 
 Status	Meaning
-Not Started	Topic has not been studied yet
-Learning	Currently studying the concept
-Practiced	Concept has been practiced with code/questions
+Not Started	The topic has not been studied yet
+Learning	Currently studying the topic
+Practiced	Practiced through examples or problems
 Interview Ready	Can explain and apply the concept confidently
 
-Detailed progress will be maintained in progress/progress-tracker.md.
+Detailed progress is maintained in:
 
----
+progress/progress-tracker.md
 
-🚀 Roadmap
+⸻
 
-The overall learning progression is:
+🚀 Learning Roadmap
+
+The JavaScript preparation roadmap follows this progression:
 
 JavaScript Fundamentals
         ↓
@@ -259,7 +300,7 @@ Advanced JavaScript
         ↓
 Asynchronous JavaScript
         ↓
-Browser / DOM Concepts
+DOM & Browser Concepts
         ↓
 Problem Solving
         ↓
@@ -267,7 +308,7 @@ Interview Questions
         ↓
 Interview Preparation
 
-This JavaScript preparation will support my broader development journey:
+This JavaScript preparation supports the broader development journey:
 
 Advanced JavaScript
         ↓
@@ -283,13 +324,13 @@ MongoDB
         ↓
 MERN Stack
 
-The roadmap is progressive and will be updated as my learning develops.
+The roadmap will evolve as new concepts are learned and practiced.
 
----
+⸻
 
-🔄 Practice Workflow
+🔄 Git & Practice Workflow
 
-My regular workflow for adding content is:
+The repository follows a simple workflow:
 
 Learn
   ↓
@@ -303,31 +344,37 @@ Commit
   ↓
 Push
 
-The goal is to understand a concept before documenting it and to keep the repository aligned with actual learning progress.
+Example commit messages:
 
----
+feat: add closures notes
+feat: add promise interview questions
+feat: add sliding window problems
+docs: update async javascript notes
+docs: update progress tracker
+
+⸻
 
 ⭐ Goals
 
-The main goals of this repository are:
+The long-term goals of this repository are to:
 
-* Build strong JavaScript fundamentals
+* Develop strong JavaScript fundamentals
 * Understand advanced JavaScript concepts
-* Improve problem-solving ability
-* Learn common coding patterns
-* Build confidence explaining JavaScript concepts
+* Improve interview-oriented problem solving
+* Learn reusable coding patterns
+* Build confidence explaining JavaScript
+* Create a reliable revision resource
 * Prepare for JavaScript technical interviews
-* Maintain a useful long-term revision resource
-* Support my journey toward becoming a MERN Stack developer
+* Strengthen the JavaScript foundation required for MERN Stack development
 
----
+⸻
 
-📌 About This Repository
+📌 Repository Status
 
 This repository is a work in progress.
 
-New concepts, examples, interview questions, coding problems, patterns, and best practices will be added continuously as I learn and practice them.
+Content will be added continuously as concepts are learned, practiced, and revised.
 
-The objective is not to finish the repository quickly.
+The goal is not to create the largest collection of JavaScript notes.
 
-The objective is to build a useful, accurate, and practical JavaScript interview preparation resource over time.
+The goal is to create a clear, accurate, practical, and genuinely useful JavaScript interview preparation resource.
